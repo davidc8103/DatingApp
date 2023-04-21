@@ -1,4 +1,4 @@
-# fly.toml app configuration file generated for datingapp777 on 2023-04-19T16:42:28-04:00
+# fly.toml app configuration file generated for datingapp777 on 2023-04-20T13:38:35-04:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
@@ -8,11 +8,6 @@ primary_region = "lax"
 
 [build]
   image = "shin7772/datingapp:latest"
-
-[env]
-  ASPNETCORE_URLS="http://+:8080"
-  CloudinarySettings__Cloudname="dvzlgazgz"
-  CloudinarySettings__ApiKey="228511683156616"
 
 [http_service]
   internal_port = 8080
